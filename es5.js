@@ -194,7 +194,7 @@ module.exports = {
       'error',
       'unix'
     ],
-    'lines-around-comment': 'error',
+    'lines-around-comment': 'off',
     'max-depth': 'warn',
     'max-len': [
       'warn',
