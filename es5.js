@@ -65,7 +65,10 @@ module.exports = {
     'consistent-return': 'warn',
     'curly': 'error',
     'default-case': 'warn',
-    'dot-location': 'error',
+    'dot-location': [
+      'error',
+      'property'
+    ],
     'dot-notation': 'error',
     'eqeqeq': [
       'error',
@@ -98,7 +101,7 @@ module.exports = {
     'no-labels': 'error',
     'no-lone-blocks': 'error',
     'no-loop-func': 'error',
-    'no-magic-numbers': 'warn',
+    'no-magic-numbers': 'off',
     'no-multi-spaces': 'error',
     'no-multi-str': 'error',
     'no-new-func': 'error',
@@ -106,7 +109,7 @@ module.exports = {
     'no-new': 'error',
     'no-octal-escape': 'error',
     'no-octal': 'error',
-    'no-param-reassign': 'error',
+    'no-param-reassign': 'off',
     'no-proto': 'error',
     'no-redeclare': 'error',
     'no-return-assign': 'error',

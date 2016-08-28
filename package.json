@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-skelp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Standard ESLint configurations for Skelp packages",
   "homepage": "https://github.com/Skelp/eslint-config-skelp",
   "bugs": {
