@@ -25,9 +25,6 @@
 module.exports = {
   extends: [
     './es5.js',
-    '../es6.js'
-  ],
-  rules: {
-    'symbol-description': 'off'
-  }
+    '../shared/es6.js'
+  ]
 }

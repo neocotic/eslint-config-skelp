@@ -25,9 +25,20 @@
 module.exports = {
   extends: '../shared/es5.js',
   rules: {
+    'no-template-curly-in-string': 'error',
+    'no-unsafe-negation': 'error',
+
     'eqeqeq': [
       'error',
-      'allow-null'
-    ]
+      'always',
+      {
+        'null': 'ignore'
+      }
+    ],
+    'no-global-assign': 'error',
+
+    'func-call-spacing': 'error',
+    'no-tabs': 'error',
+    'sort-keys': 'warn'
   }
 }

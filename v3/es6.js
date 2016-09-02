@@ -23,11 +23,11 @@
 'use strict'
 
 module.exports = {
-  extends: '../shared/es5.js',
+  extends: [
+    './es5.js',
+    '../shared/es6.js'
+  ],
   rules: {
-    'eqeqeq': [
-      'error',
-      'allow-null'
-    ]
+    'symbol-description': 'warn'
   }
 }
