@@ -33,7 +33,11 @@ Create an ESLint configuration file within your package that extends this config
 }
 ```
 
-This will import the ECMAScript 5 configuration by default. This can also be done by extending `"skelp:es5"`. For ECMAScript 6 packages, please extend `"skelp:es6"` instead.
+This will import the ECMAScript 5 configuration by default. This can also be done by extending `"skelp/es5"`. For
+ECMAScript 6 packages, please extend `"skelp/es6"` instead.
+
+For compatibility with ESLint version 2, extend either `"skelp/v2/es5"` for ECMAScript 5 or `"skelp/v2/es6"` for
+EMCAScript 6.
 
 ## Bugs
 

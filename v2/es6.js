@@ -23,49 +23,11 @@
 'use strict'
 
 module.exports = {
-  extends: './es5.js',
-  env: {
-    es6: true
-  },
-  parserOptions: {
-    ecmaVersion: 6
-  },
+  extends: [
+    './es5.js',
+    '../es6.js'
+  ],
   rules: {
-    'arrow-body-style': [
-      'error',
-      'as-needed'
-    ],
-    'arrow-parens': [
-      'error',
-      'always'
-    ],
-    'arrow-spacing': 'error',
-    'constructor-super': 'error',
-    'generator-star-spacing': 'error',
-    'no-class-assign': 'error',
-    'no-confusing-arrow': 'error',
-    'no-const-assign': 'error',
-    'no-dupe-class-members': 'error',
-    'no-duplicate-imports': 'error',
-    'no-new-symbol': 'error',
-    'no-restricted-imports': 'off',
-    'no-this-before-super': 'error',
-    'no-useless-computed-key': 'error',
-    'no-useless-constructor': 'warn',
-    'no-useless-rename': 'error',
-    'no-var': 'error',
-    'object-shorthand': 'warn',
-    'prefer-arrow-callback': 'error',
-    'prefer-const': 'warn',
-    'prefer-reflect': 'warn',
-    'prefer-rest-params': 'warn',
-    'prefer-spread': 'error',
-    'prefer-template': 'error',
-    'require-yield': 'error',
-    'rest-spread-spacing': 'error',
-    'sort-imports': 'warn',
-    'symbol-description': 'warn',
-    'template-curly-spacing': 'error',
-    'yield-star-spacing': 'error'
+    'symbol-description': 'off'
   }
 }
