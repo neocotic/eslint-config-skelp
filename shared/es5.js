@@ -39,7 +39,13 @@ module.exports = {
     'no-empty': 'error',
     'no-ex-assign': 'error',
     'no-extra-boolean-cast': 'error',
-    'no-extra-parens': 'error',
+    'no-extra-parens': [
+      'error',
+      'all',
+      {
+        'nestedBinaryExpressions': false
+      }
+    ],
     'no-extra-semi': 'error',
     'no-func-assign': 'error',
     'no-inner-declarations': 'error',
@@ -168,7 +174,7 @@ module.exports = {
       'error',
       'never'
     ],
-    'func-style': 'error',
+    'func-style': 'off',
     'id-blacklist': 'off',
     'id-length': 'off',
     'id-match': 'off',
@@ -216,12 +222,7 @@ module.exports = {
     'no-restricted-syntax': 'off',
     'no-ternary': 'off',
     'no-trailing-spaces': 'error',
-    'no-underscore-dangle': [
-      'error',
-      {
-        'allowAfterThis': true
-      }
-    ],
+    'no-underscore-dangle': 'off',
     'no-unneeded-ternary': 'error',
     'no-whitespace-before-property': 'error',
     'object-curly-newline': [
@@ -266,7 +267,7 @@ module.exports = {
       'error',
       'never'
     ],
-    'sort-vars': 'warn',
+    'sort-vars': 'off',
     'space-before-blocks': 'error',
     'space-before-function-paren': [
       'error',

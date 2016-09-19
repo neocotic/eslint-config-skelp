@@ -59,4 +59,4 @@ See [LICENSE.md](https://github.com/Skelp/eslint-config-skelp/raw/master/LICENSE
 license.
 
 © 2016 [Skelp](https://skelp.io)
-<img align="right" width="16" height="16" src="https://raw.githubusercontent.com/Skelp/skelp-branding/master/assets/logo/base/skelp-logo-16x16.png">
+<img align="right" width="16" height="16" src="https://cdn.rawgit.com/Skelp/skelp-branding/master/assets/logo/base/skelp-logo-16x16.png">

@@ -62,7 +62,7 @@ module.exports = {
     'prefer-template': 'error',
     'require-yield': 'error',
     'rest-spread-spacing': 'error',
-    'sort-imports': 'warn',
+    'sort-imports': 'off',
     'template-curly-spacing': 'error',
     'yield-star-spacing': 'error'
   }

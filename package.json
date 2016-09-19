@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-skelp",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Standard ESLint configurations for Skelp packages",
   "homepage": "https://github.com/Skelp/eslint-config-skelp",
   "bugs": {
@@ -8,8 +8,8 @@
   },
   "author": {
     "name": "Alasdair Mercer",
-    "email": "mercer.alasdair@gmail.com",
-    "url": "https://neocotic.com"
+    "email": "alasdair@skelp.io",
+    "url": "https://skelp.io"
   },
   "license": "MIT",
   "keywords": [
