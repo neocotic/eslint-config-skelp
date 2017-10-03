@@ -1,15 +1,17 @@
 # eslint-config-skelp
 
-[eslint-config-skelp](https://github.com/Skelp/eslint-config-skelp) contains standard ESLint configurations for Skelp
+[eslint-config-skelp](https://github.com/neocotic/eslint-config-skelp) contains standard ESLint configurations for Skelp
 packages.
 
-[![License](https://img.shields.io/npm/l/eslint-config-skelp.svg?style=flat-square)](https://github.com/Skelp/eslint-config-skelp/blob/master/LICENSE.md)
+[![License](https://img.shields.io/npm/l/eslint-config-skelp.svg?style=flat-square)](https://github.com/neocotic/eslint-config-skelp/blob/master/LICENSE.md)
 [![Release](https://img.shields.io/npm/v/eslint-config-skelp.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-skelp)
+
+> **Important!** This package is deprecated and no longer maintained. You may want to consider using the
+[!ninja configuration](https://github.com/NotNinja/eslint-config-notninja) or any other
+[ESLint configuration](https://npms.io/search?q=eslint-config).
 
 * [Install](#install)
 * [Configuration](#configuration)
-* [Bugs](#bugs)
-* [Contributors](#contributors)
 * [License](#license)
 
 ## Install
@@ -39,24 +41,7 @@ ECMAScript 6 packages, please extend `"skelp/es6"` instead.
 For compatibility with ESLint version 2, extend either `"skelp/v2/es5"` for ECMAScript 5 or `"skelp/v2/es6"` for
 EMCAScript 6.
 
-## Bugs
-
-If you have any problems or would like to see changes currently in development you can do so
-[here](https://github.com/Skelp/eslint-config-skelp/issues).
-
-## Contributors
-
-If you want to contribute, you're a legend! Information on how you can do so can be found in
-[CONTRIBUTING.md](https://github.com/Skelp/eslint-config-skelp/blob/master/CONTRIBUTING.md). We want your suggestions
-and pull requests!
-
-A list of contributors can be found in
-[AUTHORS.md](https://github.com/Skelp/eslint-config-skelp/blob/master/AUTHORS.md).
-
 ## License
 
-See [LICENSE.md](https://github.com/Skelp/eslint-config-skelp/raw/master/LICENSE.md) for more information on our MIT
+See [LICENSE.md](https://github.com/neocotic/eslint-config-skelp/raw/master/LICENSE.md) for more information on our MIT
 license.
-
-© 2016 [Skelp](https://skelp.io)
-<img align="right" width="16" height="16" src="https://cdn.rawgit.com/Skelp/skelp-branding/master/assets/logo/base/skelp-logo-16x16.png">
