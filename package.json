@@ -1,15 +1,12 @@
 {
   "name": "eslint-config-skelp",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Standard ESLint configurations for Skelp packages",
-  "homepage": "https://github.com/Skelp/eslint-config-skelp",
-  "bugs": {
-    "url": "https://github.com/Skelp/eslint-config-skelp/issues"
-  },
+  "homepage": "https://github.com/neocotic/eslint-config-skelp",
   "author": {
     "name": "Alasdair Mercer",
-    "email": "alasdair@skelp.io",
-    "url": "https://skelp.io"
+    "email": "mercer.alasdair@gmail.com",
+    "url": "https://neocotic.com"
   },
   "license": "MIT",
   "keywords": [
@@ -17,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Skelp/eslint-config-skelp.git"
+    "url": "https://github.com/neocotic/eslint-config-skelp.git"
   },
   "main": "es5.js"
 }
